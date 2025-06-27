@@ -126,7 +126,19 @@ h6 {
 }
 
 hr {
-  border: 1px solid #ddd;
+  border: none;
+  height: 1px;
+  background-color: #999;
+  width: 50%;
+  margin: 40px auto; /* 上下间距 40px，左右自动居中 */
+}
+
+strong,
+b {
+  font-weight: 900;
+  /* 更粗 */
+  color: #000;
+  /* 强制纯黑 */
 }
 
 a {
